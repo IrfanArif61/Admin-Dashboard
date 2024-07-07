@@ -1,0 +1,11 @@
+.allusers{
+    display: flex;
+    width: 100%;
+    .allusersContainer{
+        flex: 6;
+        border-radius: 20px;
+        background-color: #ffffff;
+        margin-left: -2rem;
+
+    }
+}

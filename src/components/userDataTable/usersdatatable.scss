@@ -1,0 +1,15 @@
+.usersDataTable{
+    // height: 630px;
+    width: 97%;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+    .dataGrid{
+        height: 100vh;
+        padding: 20px 50px;
+
+        .MuiDataGrid-toolbarContainer{
+            flex-direction: row-reverse;
+        }
+    }
+}

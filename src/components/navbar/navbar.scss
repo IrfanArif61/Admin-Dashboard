@@ -1,0 +1,103 @@
+.navbar{
+    height: 50px;
+    // border: 0.5px solid rgb(238,228,228);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    border-top-left-radius: 20px;
+
+    .wrapper{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .search{
+            display: flex;
+            align-items: center;
+            
+            // border: 0.5px solid lightgray;
+            padding: 3px; 
+            font-weight: 1500;
+            margin-left: 2rem;
+            input{
+                border: none;
+                outline: none;
+                background: transparent;
+            }
+
+            h2{
+                font-family: Franklin Gothic Medium;
+            }
+        }
+    }
+
+    .items{
+        display: flex;
+        align-items: center;
+
+        .item{
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+            position: relative;
+
+            .icon{
+                font-size: 20px;
+            }
+
+            // .avatar{
+            //     width: 30px;
+            //     height: 30px;
+            //     border-radius: 50%;
+            // }
+
+            .counter{
+                width: 15px;
+                height: 15px;
+                background-color: red;
+                border-radius: 50%;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 10px;
+                font-weight: bold;
+                position: absolute;
+                top: -5px;
+                right: -5px;
+            }
+        }
+    }
+    .profile-container{
+        width: 130px;
+        // margin-right: 2rem;
+        margin-left: -2rem;
+        border: 1.5px solid #e1dddd;
+        background-color: #ffffff;
+        border-radius: 30px 30px;
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+
+        .avatar{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-left: 0.5rem;
+            padding: 0.1rem;
+        }
+
+        .name{
+            display: flex;
+            font-weight: 600;
+            align-items:start;
+            justify-content: center;
+            // padding-top: 3px;
+            padding-left: 10px;
+        }
+
+    }
+}
